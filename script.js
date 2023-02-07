@@ -24,7 +24,8 @@ for (let button of buttons) {
             display.value = display.value.slice(0, -lastNumber.length) + lastNumber;
         } else if (value === "+/-") {
             display.value = -1 * display.value;
-        } else {
+        }
+        else {
             display.value += value;
         }
     });
